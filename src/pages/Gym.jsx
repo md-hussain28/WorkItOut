@@ -1,11 +1,14 @@
 import React from 'react'
 
-const Gym = () => {
-  return (
-    <div className='bg-violet-600 w-full h-screen'>
-      <h1>This is Gym</h1>
-    </div>
-  )
-}
+import ExerciseSearch from '../components/ExerciseSearch';
 
-export default Gym
+const Gym = () => {
+
+  return (
+    <div className='min-h-screen h-fit pt-11 min-w-full  bg-violet-800'>
+      <ExerciseSearch/>
+    </div>
+  );
+};
+
+export default Gym;
